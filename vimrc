@@ -38,7 +38,7 @@ Bundle 'https://github.com/godlygeek/tabular'
 "   http://www.cnblogs.com/huanlei/archive/2012/04/13/2445550.html
 
 "Bundle 'https://github.com/msanders/snipmate.vim'
-Bundle 'git://github.com/selflearner/snipmate.vim.git'
+Bundle 'git://github.com/myvimfiles/snipmate.vim.git'
 
 " My Bundles here:
 "
