@@ -33,12 +33,17 @@ set encoding=utf8
 Bundle 'molokai'
 color molokai
 
-
+"对齐插件
 Bundle 'https://github.com/godlygeek/tabular'
 "   http://www.cnblogs.com/huanlei/archive/2012/04/13/2445550.html
 
 "Bundle 'https://github.com/msanders/snipmate.vim'
 Bundle 'git://github.com/myvimfiles/snipmate.vim.git'
+"let g:SuperTabDefaultCompletionType = "context"
+let g:snips_trigger_key="<S-Tab>" 
+"let g:snips_trigger_key='<F5>' 
+"let SuperTabMappingForward="<Tab>" 
+"let SuperTabMappingBackward="<S-Tab>"
 
 " My Bundles here:
 "
@@ -72,6 +77,7 @@ filetype plugin indent on     " required!
 "Bundle 'Conque-Shell'    安装不成功，需手动安装conque_2.1.vba
 "安装方法：直接用vi打开，输入:so % 
 map <F10> :ConqueTermTab bash<CR>
+map <F1> :e ~/.vim/vimrc<CR>
 
 
 
@@ -97,3 +103,27 @@ map <F10> :ConqueTermTab bash<CR>
 "au InsertEnter * se noimd 
 "au InsertLeave * se imd 
 "au FocusGained * se imd 
+"
+"
+"
+"
+"Bundle 'https://github.com/ervandew/supertab'
+"
+"
+"快速注释
+"Bundle 'https://github.com/scrooloose/nerdcommenter'
+"
+"
+"
+"树形工程浏览视图
+"针对工程用nerdtree打开的问题，我有个小小的经验之谈。
+"        (3.1).你可以使用vim +NERDTree就能快速以nerdtree打开当前目录
+"        (3.2).使用别名，快速在任何地方打开某一工程，举例：在.bashrc中定义alias openpro='cd /workspace/project; vim +NERDTree'后，在任何目录执行openpro就能打开workspace目录下的project这个工程了。
+"        (3.3).配置快捷键，比如F2等。
+"Bundle 'https://github.com/scrooloose/nerdtree'
+"
+"
+"
+"TODO
+"bash-support
+"
