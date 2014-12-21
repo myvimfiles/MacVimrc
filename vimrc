@@ -1,5 +1,6 @@
 "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 "test 2014 12 20 23:29
+"test git  2014 12 21
 if has('unix')
     let $VIMFILES = $HOME.'/.vim'
 else
