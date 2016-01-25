@@ -15,7 +15,7 @@ if has("gui_running")
 	set guifont=Monaco:h20
       "set guifont=Consolas:h9
 endif
-set history=100000
+set history=1000
 "中文乱码解决
 "set fileencodings=gb2312,gb18030,utf-8
 "set termencoding=utf-8
